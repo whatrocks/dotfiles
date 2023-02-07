@@ -1,3 +1,14 @@
+" new stuff
+
+" Highlight all search occurences
+set hlsearch
+
+" Clear search occurences easily
+nnoremap <silent> <C-l> :<C-u>nohlsearch<CR><C-l>
+
+
+" old stuff
+
 " Don't try to be vi compatible
 set nocompatible
 
@@ -45,15 +56,15 @@ highlight CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE guibg=NONE guifg=NONE
 set cursorline
 
 " Directory
-let g:netrw_banner = 0
-let g:netrw_liststyle = 3
-let g:netrw_browse_split = 4
-let g:netrw_altv = 1
-let g:netrw_winsize = 25
-nnoremap <C-J> <C-W><C-J>
-nnoremap <C-K> <C-W><C-K>
-nnoremap <C-L> <C-W><C-L>
-nnoremap <C-H> <C-W><C-H>
+" let g:netrw_banner = 0
+" let g:netrw_liststyle = 3
+" let g:netrw_browse_split = 4
+" let g:netrw_altv = 1
+" let g:netrw_winsize = 25
+" nnoremap <C-J> <C-W><C-J>
+" nnoremap <C-K> <C-W><C-K>
+" nnoremap <C-L> <C-W><C-L>
+" nnoremap <C-H> <C-W><C-H>
 " augroup ProjectDrawer
 "  autocmd!
 "  autocmd VimEnter * :Vexplore
