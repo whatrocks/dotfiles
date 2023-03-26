@@ -1,9 +1,7 @@
-# UPDATING THIS FILE
 alias prof="vim ~/.bash_profile"
 alias r=". ~/.bash_profile"
 alias evim="vim -u ~/projects/solutions/practicalvim/essential.vim"
-
-# ALIASES
+alias config='/usr/bin/git --git-dir=/Users/charlie/.cfg/ --work-tree=/Users/charlie'
 alias code="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code"
 
 # GIT STUFF
