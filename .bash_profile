@@ -3,6 +3,7 @@ alias r=". ~/.bash_profile"
 alias evim="vim -u ~/projects/solutions/practicalvim/essential.vim"
 alias config='/usr/bin/git --git-dir=/Users/charlie/.cfg/ --work-tree=/Users/charlie'
 alias code="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code"
+alias tmux="TERM=screen-256color-bce tmux"
 
 # GIT STUFF
 green="\[\033[0;32m\]"
