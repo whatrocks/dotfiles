@@ -1,11 +1,16 @@
+# bash profile
 alias prof="vim ~/.bash_profile"
 alias r=". ~/.bash_profile"
-alias evim="vim -u ~/projects/solutions/practicalvim/essential.vim"
+
+# dotfiles
 alias config='/usr/bin/git --git-dir=/Users/charlie/.cfg/ --work-tree=/Users/charlie'
+
+# applications
 alias code="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code"
 alias tmux="TERM=screen-256color-bce tmux"
+alias python=python3
 
-# GIT STUFF
+# git
 green="\[\033[0;32m\]"
 blue="\[\033[0;36m\]"
 purple="\[\033[0;35m\]"
@@ -23,17 +28,14 @@ export PS1="$purple\u$green\$(__git_ps1)$blue \W $ $reset"
 alias glo="git log --pretty=oneline"
 alias glu="git log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
 
-# HELPER FUNCTIONS
+# helpers
 mkcd () {
   mkdir "$1"
   cd "$1"
 }
 
-alias python=python3
-
 eval "$(/opt/homebrew/bin/brew shellenv)"
 . "$HOME/.cargo/env"
-
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
@@ -43,3 +45,10 @@ export NVM_DIR="$HOME/.nvm"
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+# ruby
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+export CPPFLAGS="-I/opt/homebrew/opt/ruby/include"
+export PKG_CONFIG_PATH="/opt/homebrew/opt/ruby/lib/pkgconfig"
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
