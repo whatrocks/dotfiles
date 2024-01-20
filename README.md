@@ -9,7 +9,7 @@ sudo softwareupdate -i -a
 xcode-select --install
 ```
 
-## setup
+## setup process for mac
 
 This setup is inspired by [this article](https://www.atlassian.com/git/tutorials/dotfiles). Copying the most important parts here in case the article goes away for some reason.
 
