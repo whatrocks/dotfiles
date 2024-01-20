@@ -43,12 +43,12 @@ export NVM_DIR="$HOME/.nvm"
 
 
 # bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
+#export BUN_INSTALL="$HOME/.bun"
+#export PATH="$BUN_INSTALL/bin:$PATH"
 
 # ruby
-export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
-export CPPFLAGS="-I/opt/homebrew/opt/ruby/include"
-export PKG_CONFIG_PATH="/opt/homebrew/opt/ruby/lib/pkgconfig"
+# export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+#export CPPFLAGS="-I/opt/homebrew/opt/ruby/include"
+#export PKG_CONFIG_PATH="/opt/homebrew/opt/ruby/lib/pkgconfig"
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
