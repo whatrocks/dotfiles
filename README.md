@@ -7,8 +7,26 @@
 ```bash
 sudo softwareupdate -i -a
 xcode-select --install
+defaults write -g InitialKeyRepeat -int 12
+defaults write -g KeyRepeat -int 1
+defaults write -g ApplePressAndHoldEnabled -bool false
+defaults write com.apple.dock autohide-delay -int 0
+defaults write com.apple.dock autohide-time-modifier -float 0.4
+killall Dock
+
 ```
+Remap Caps Lock to Escape
+Natural Scrolling
+change hostname https://gist.github.com/a1ip/68db7b4e137d958da58e587a3a44dab8
+change wakeup https://twitter.com/thorstenball/status/1736679960784310775
+
+
 https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key
+
+https://registerspill.thorstenball.com/p/new-year-new-job-new-machine
+
+install homebrew
+
 
 ## setup process for mac
 
