@@ -55,6 +55,7 @@ brew "zig"
 brew "zsh"
 brew "zstd"
 
+cask "anki"
 cask "slack"
 cask 'rectangle'
 cask "zoom"
@@ -78,6 +79,8 @@ cask 'font-roboto'
 cask 'font-roboto-mono'
 cask 'font-ibm-plex'
 
+mas 'Dark Noise: Ambient Sounds', id: 1465439395
+mas 'Drafts', id: 1435957248
 mas 'Xcode', id: 497799835
 mas 'Tailscale', id: 1475387142
 mas 'Kindle', id: 405399194
