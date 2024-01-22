@@ -8,6 +8,7 @@
 sudo softwareupdate -i -a
 xcode-select --install
 ```
+https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key
 
 ## setup process for mac
 

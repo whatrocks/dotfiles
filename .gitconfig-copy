@@ -1,7 +1,8 @@
 [user]
 	name = Charlie Harrington
   email = charlie@harrington.computer
-
+  # signingkey = <enter key>
+  
 [alias]
   co = checkout
   st = status
@@ -12,6 +13,7 @@
 
 [commit]
 	verbose = true
+  # gpgsign = true
 
 [init]
 	defaultBranch = main
