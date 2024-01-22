@@ -1,6 +1,7 @@
 [user]
 	name = Charlie Harrington
   email = charlie@harrington.computer
+  signingkey = D51A4BAF895B9CF04F9821C8834F444D67720C80
 
 [alias]
   co = checkout
@@ -11,7 +12,8 @@
   up = push
 
 [commit]
-	verbose = true
+  verbose = true
+  gpgsign = true
 
 [init]
 	defaultBranch = main
