@@ -53,3 +53,6 @@ export GPG_TTY=$(tty)
 #export PKG_CONFIG_PATH="/opt/homebrew/opt/ruby/lib/pkgconfig"
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
+
+# Export my personal ~/bin as last one to have highest precedence
+export PATH="$HOME/bin:$PATH"
