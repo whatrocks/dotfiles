@@ -1,5 +1,6 @@
 tap "homebrew/bundle"
 
+brew "asdf"
 brew "autoconf"
 brew "automake"
 brew "bash"
