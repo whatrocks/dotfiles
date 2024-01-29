@@ -2,7 +2,7 @@
 
 ## First things first
 
-* Remap caps lock to escape
+* Remap caps lock to escape (also swap command and option on the Sculpt keyboard)
 * Adjust scroll direction
 * Change hostname (instructions for [MacOS](https://gist.github.com/a1ip/68db7b4e137d958da58e587a3a44dab8))
 

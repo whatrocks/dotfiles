@@ -54,5 +54,8 @@ export GPG_TTY=$(tty)
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
+# asdf settings
+. /opt/homebrew/opt/asdf/libexec/asdf.sh
+
 # Export my personal ~/bin as last one to have highest precedence
 export PATH="$HOME/bin:$PATH"
