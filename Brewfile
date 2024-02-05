@@ -61,6 +61,7 @@ cask "slack"
 cask 'rectangle'
 cask "zoom"
 cask "spotify"
+cask "loom"
 cask "vlc"
 cask "visual-studio-code"
 cask "orbstack"
