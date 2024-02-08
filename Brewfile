@@ -1,4 +1,5 @@
 tap "homebrew/bundle"
+tap "heroku/brew"
 
 brew "asdf"
 brew "autoconf"
@@ -25,6 +26,7 @@ brew "gnupg"
 brew "gnu-sed"
 brew "gnu-tar"
 brew "graphviz"
+brew "heroku"
 brew "imagemagick"
 brew "jq"
 brew "make"
