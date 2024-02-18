@@ -72,6 +72,7 @@ cask "discord"
 cask "handbrake"
 cask "figma"
 cask "sonos"
+cask "ticktick"
 # terminal emulators
 cask "kitty"
 cask "iterm2"
