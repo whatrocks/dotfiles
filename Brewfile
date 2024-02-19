@@ -61,6 +61,7 @@ brew "zstd"
 cask "anki"
 cask "slack"
 cask 'rectangle'
+cask "framer"
 cask "zoom"
 cask "spotify"
 cask "loom"
