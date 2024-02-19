@@ -54,6 +54,10 @@ export GPG_TTY=$(tty)
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
+
+export HEROKU_ORGANIZATION=folioco
+
+
 # asdf settings
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
 
