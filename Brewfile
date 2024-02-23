@@ -74,6 +74,7 @@ cask "handbrake"
 cask "figma"
 cask "sonos"
 cask "ticktick"
+cask "zed"
 # terminal emulators
 cask "kitty"
 cask "iterm2"
