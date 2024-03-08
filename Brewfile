@@ -1,6 +1,7 @@
 tap "homebrew/bundle"
 tap "heroku/brew"
 
+brew "ag"
 brew "asdf"
 brew "autoconf"
 brew "automake"
