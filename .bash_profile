@@ -44,8 +44,8 @@ export NVM_DIR="$HOME/.nvm"
 export GPG_TTY=$(tty)
 
 # bun
-#export BUN_INSTALL="$HOME/.bun"
-#export PATH="$BUN_INSTALL/bin:$PATH"
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
 
 # ruby
 # export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
