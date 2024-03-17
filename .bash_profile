@@ -44,8 +44,8 @@ export NVM_DIR="$HOME/.nvm"
 export GPG_TTY=$(tty)
 
 # bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
+#export BUN_INSTALL="$HOME/.bun"
+#export PATH="$BUN_INSTALL/bin:$PATH"
 
 # ruby
 # export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
@@ -55,11 +55,15 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
 
+set rtp+=/opt/homebrew/opt/fzf
+
 export HEROKU_ORGANIZATION=folioco
 
 
 # asdf settings
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
+
+set rtp+=/opt/homebrew/opt/fzf
 
 # Export my personal ~/bin as last one to have highest precedence
 export PATH="$HOME/bin:$PATH"
