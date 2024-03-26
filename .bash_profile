@@ -55,6 +55,9 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
 
+# folio
+export FOLIO_USE_DOCKER=true
+
 set rtp+=/opt/homebrew/opt/fzf
 
 export HEROKU_ORGANIZATION=folioco
