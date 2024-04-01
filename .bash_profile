@@ -57,6 +57,7 @@ eval "$(rbenv init -)"
 
 # folio
 export FOLIO_USE_DOCKER=true
+export RACK_MINI_PROFILER=1
 
 set rtp+=/opt/homebrew/opt/fzf
 
