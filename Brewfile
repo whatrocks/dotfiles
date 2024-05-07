@@ -71,6 +71,7 @@ cask "backblaze"
 cask 'rectangle'
 cask "firefox"
 cask "framer"
+cask "elgato-control-center"
 cask "handbrake"
 cask "zoom"
 cask "spotify"
