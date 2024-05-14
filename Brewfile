@@ -44,6 +44,7 @@ brew "pgrep"
 brew "postgresql@14"
 brew "python@3.10"
 brew "qemu"
+brew "redis"
 brew "ripgrep"
 brew "roapi"
 brew "rsync"
@@ -119,3 +120,4 @@ mas 'Drafts', id: 1435957248
 mas 'Xcode', id: 497799835
 mas 'Tailscale', id: 1475387142
 mas 'Kindle', id: 405399194
+mas 'Logic Pro', id: 634148309
