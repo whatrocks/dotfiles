@@ -35,7 +35,7 @@ mkcd () {
 }
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
-. "$HOME/.cargo/env"
+#. "$HOME/.cargo/env"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
@@ -51,8 +51,8 @@ export GPG_TTY=$(tty)
 # export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 #export CPPFLAGS="-I/opt/homebrew/opt/ruby/include"
 #export PKG_CONFIG_PATH="/opt/homebrew/opt/ruby/lib/pkgconfig"
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
+#export PATH="$HOME/.rbenv/bin:$PATH"
+#eval "$(rbenv init -)"
 
 
 # folio
