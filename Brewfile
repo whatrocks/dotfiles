@@ -93,6 +93,7 @@ cask "claude"
 cask "cursor"
 cask "gimp"
 cask "slack"
+cask "cursor"
 cask "backblaze"
 cask "ghostty"
 cask 'rectangle'
