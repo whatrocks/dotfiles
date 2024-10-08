@@ -34,8 +34,12 @@ mkcd () {
   cd "$1"
 }
 
+
+
 eval "$(/opt/homebrew/bin/brew shellenv)"
 #. "$HOME/.cargo/env"
+
+source ~/.git-completion.bash
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
