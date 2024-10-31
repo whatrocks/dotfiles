@@ -27,6 +27,7 @@ export PS1="$purple\u$green\$(__git_ps1)$blue \W $ $reset"
 # git shortcuts
 alias glo="git log --pretty=oneline"
 alias glu="git log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
+alias grb="git reflog | grep 'checkout: moving from' | head"
 
 # helpers
 mkcd () {
