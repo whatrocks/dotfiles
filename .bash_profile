@@ -49,11 +49,11 @@ export NVM_DIR="$HOME/.nvm"
 export GPG_TTY=$(tty)
 
 # ruby
-# export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
-#export CPPFLAGS="-I/opt/homebrew/opt/ruby/include"
-#export PKG_CONFIG_PATH="/opt/homebrew/opt/ruby/lib/pkgconfig"
-#export PATH="$HOME/.rbenv/bin:$PATH"
-#eval "$(rbenv init -)"
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+export CPPFLAGS="-I/opt/homebrew/opt/ruby/include"
+export PKG_CONFIG_PATH="/opt/homebrew/opt/ruby/lib/pkgconfig"
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
 
 
 # folio
