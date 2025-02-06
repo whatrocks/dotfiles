@@ -123,6 +123,7 @@ cask "steam"
 cask "superhuman"
 cask "telegram"
 cask "ticktick"
+cask "todoist"
 cask "vnc-viewer"
 cask "zed"
 # terminal emulators
