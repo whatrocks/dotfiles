@@ -98,6 +98,7 @@ cask "ghostty"
 cask 'rectangle'
 cask "firefox"
 cask "framer"
+cask "granola"
 cask "elgato-control-center"
 cask "handbrake"
 cask "zoom"
