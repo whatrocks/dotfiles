@@ -101,3 +101,5 @@ set t_Co=256
 set background=dark
 set termguicolors
 colorscheme kuroi
+
+set rtp+=/opt/homebrew/opt/fzf
