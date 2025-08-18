@@ -2,6 +2,7 @@ tap "homebrew/bundle"
 tap "heroku/brew"
 tap "oven-sh/bun"
 
+brew "actionlint"
 brew "ag"
 brew "aider"
 brew "asdf"
@@ -32,6 +33,7 @@ brew "gpg"
 brew "gnupg"
 brew "gnu-sed"
 brew "gnu-tar"
+brew "go"
 brew "gource"
 brew "graphviz"
 brew "heroku"
@@ -56,7 +58,7 @@ brew "pandoc"
 brew "pgrep"
 brew "poppler"
 brew "portaudio"
-brew "postgresql@14"
+brew "postgresql@16"
 brew "python@3.10"
 brew "qemu"
 brew "rbenv"
@@ -93,6 +95,7 @@ cask "arduino-ide"
 cask "balenaetcher"
 cask "chatgpt"
 cask "claude"
+cask "claude-code"
 cask "cursor"
 cask "gimp"
 cask "slack"
@@ -122,7 +125,7 @@ cask "microsoft-office"
 cask "microsoft-teams"
 cask "obsidian"
 cask "openemu"
-cask "orbstack"
+cask "docker"
 cask "piezo"
 cask "postman"
 cask "proxyman"
@@ -143,14 +146,6 @@ cask "zed"
 cask "kitty"
 cask "iterm2"
 cask "warp"
-# fonts
-tap 'homebrew/cask-fonts'
-cask 'font-hack'
-cask 'font-jetbrains-mono'
-cask 'font-inconsolata'
-cask 'font-roboto'
-cask 'font-roboto-mono'
-cask 'font-ibm-plex'
 
 mas 'Dark Noise: Ambient Sounds', id: 1465439395
 mas 'Drafts', id: 1435957248
