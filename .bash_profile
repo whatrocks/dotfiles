@@ -70,6 +70,7 @@ export HEROKU_ORGANIZATION=folioco
 
 set rtp+=/opt/homebrew/opt/fzf
 
+export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"
 # Export my personal ~/bin as last one to have highest precedence
 export PATH="$HOME/bin:$PATH"
 
@@ -80,3 +81,4 @@ source ~/.orbstack/shell/init.bash 2>/dev/null || :
 eval "$(fzf --bash)"
 
 . "$HOME/.local/bin/env"
+eval "$(mise activate bash)"
