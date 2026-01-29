@@ -62,9 +62,6 @@ export RACK_MINI_PROFILER=1
 
 set rtp+=/opt/homebrew/opt/fzf
 
-export HEROKU_ORGANIZATION=folioco
-
-
 # asdf settings
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
 
