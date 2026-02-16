@@ -11,3 +11,4 @@ window-colorspace = "display-p3"
 background = 1C2021
 keybind = alt+left=unbind
 keybind = alt+right=unbind
+keybind = shift+enter=text:\x1b\r
